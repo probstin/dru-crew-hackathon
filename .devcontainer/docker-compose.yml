@@ -5,7 +5,7 @@ volumes:
 
 services:
   app:
-    container_name: java-node
+    container_name: java-node-workspace
     build: 
       context: .
       dockerfile: Dockerfile
