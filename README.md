@@ -43,3 +43,6 @@ steam account name: Drulastnamecrew
 password: Chickenpasshello1!
 
 https://store.steampowered.com/api/appdetails?appids=240
+
+
+https://www.npmjs.com/package/react-oidc-context
