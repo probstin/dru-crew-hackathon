@@ -20,6 +20,12 @@ Follow the Session Guide to learn the setup/objectives for the day!
 
 
 
+steam apps api
+
+http://api.steampowered.com/ISteamApps/GetAppList/v2
+
+
+
 
 
 
