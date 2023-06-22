@@ -3,8 +3,14 @@
 {
 	"name": "DRU Crew Hackathon Workspace",
 	"dockerComposeFile": "docker-compose.yml",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"service": "app",
-	"workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
+	"forwardPorts": [
+		8080,
+		5173,
+		"db:5432",
+		"pgadmin:8081"
+	],
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
@@ -12,11 +18,6 @@
 			"version": "lts"
 		}
 	},
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// This can be used to network with other containers or with the host.
-	"forwardPorts": [
-		5432
-	],
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -32,7 +33,8 @@
 				"esbenp.prettier-vscode",
 				"ms-ossdata.vscode-postgresql",
 				"SonarSource.sonarlint-vscode",
-				"ms-azuretools.vscode-docker"
+				"ms-azuretools.vscode-docker",
+				"rangav.vscode-thunder-client"
 			]
 		}
 	}
