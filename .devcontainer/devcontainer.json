@@ -31,7 +31,6 @@
 				"VisualStudioExptTeam.vscodeintellicode",
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"ms-ossdata.vscode-postgresql",
 				"SonarSource.sonarlint-vscode",
 				"ms-azuretools.vscode-docker",
 				"rangav.vscode-thunder-client"
