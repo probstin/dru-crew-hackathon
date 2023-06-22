@@ -17,3 +17,20 @@ Given the small window of time, this Hackathon will likely have to happen in ses
 Follow the Session Guide to learn the setup/objectives for the day!
 
 - [06_22_23 / Session 1](./docs/06_22_23.md)
+
+
+
+
+
+
+
+Email and steam accounts
+
+Email: drucrew7@gmail.com
+
+password: Drupasshello1!
+
+
+
+steam account name: Drulastnamecrew
+password: Chickenpasshello1!
