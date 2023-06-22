@@ -41,3 +41,5 @@ password: Drupasshello1!
 steam account name: Drulastnamecrew
 
 password: Chickenpasshello1!
+
+https://store.steampowered.com/api/appdetails?appids=240
